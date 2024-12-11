@@ -182,16 +182,17 @@ nav {
     height: auto;
 
   }
-  .right-box .span{
-    font-family: 'Times New Roman', Times, serif;
+  /* .right-box .span{
+    font-family: "Roboto slab";
     font-size: 4vmax;
-    font-weight: 100;
+    font-weight: 500;
+    color: #549634;
     
 
-  }
+  } */
   .right-box h1{
     font-family: "Roboto slab";
-    font-size: 8vmax;
+    font-size: 3vmax;
     color: #549634;
     
 
@@ -200,6 +201,7 @@ nav {
   .right-box p{
     font-family: "Roboto slab";
     font-size: 2vmax;
+    font-style: italic;
     
     
   }
@@ -228,11 +230,13 @@ nav {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    gap: 50px;
     
   }
   .about-left{
-    width: 50%;
+    width: 30%;
     height: auto;
+    /* background-color: #000; */
     
   }
   .about-left h1{
@@ -240,11 +244,14 @@ nav {
     font-weight: 500;
     width: 100%;
     font-size: 3vmax;
+    margin-bottom: 5px;
+    color: rgb(4, 113, 121);
   }
   .about-left p{
     width: 100%;
     font-family: "Roboto";
-    font-size: 1.5vmax;
+    font-size: 1.2vmax;
+    color: #323433;
     
   }
   .about-right{
@@ -303,10 +310,11 @@ nav {
     font-family: "Roboto slab";
     font-weight: 500;
     width: 100%;
-    font-size: 3vmax;
     text-align: center;
     margin-bottom: 35px;
     padding-top: 8vh;
+    font-size: 3vmax;
+    color: rgb(4, 113, 121);
   }
   .lerning-section{
     width: 100%;
@@ -373,6 +381,7 @@ nav {
     font-weight: 500;
     width: 100%;
     font-size: 3vmax;
+    color: rgb(4, 113, 121);
   }
   .partners-content p{
     width: 100%;
@@ -465,10 +474,18 @@ nav {
   display: flex;
   margin-top: 10px;
   gap: 15px;
+  
 }
+
+.footer-icon a{
+  text-decoration: none;
+}
+
 .footer-icon i{
   font-size: 2vmax;
   color: #25333E;
   
 }
-
+.footer-icon i::before{
+  cursor: pointer;
+}
